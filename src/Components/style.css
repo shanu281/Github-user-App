@@ -1,0 +1,20 @@
+.img-container{
+    width: 400px;
+    height: 400px;
+   
+}
+h1{
+    font-size: 2.5rem;
+    margin: 1.5rem;
+}
+h2{
+    font-size: 2rem;
+    color: rgb(198, 239, 225);
+}
+button{
+    padding: 0.3rem 1rem;
+    margin: 1rem  0.5rem;
+}
+img{
+    width: 100%;
+}
