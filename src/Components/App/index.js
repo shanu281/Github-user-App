@@ -6,7 +6,7 @@ import "../style.css";
 export default function User() {
   let [activeUserIndex, setActiveUserIndex] = useState(0);
   let [userInfo, setUserInfo] = useState(null);
-  let users = ["nnnkit", "prank7", "facebook"];
+  let users = ["nnnkit", "prank7", "facebook", "shanu281"];
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${users[activeUserIndex]}`)
